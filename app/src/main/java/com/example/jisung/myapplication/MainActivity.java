@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+//sertet
     TextView t1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
