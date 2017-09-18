@@ -6,6 +6,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -27,5 +28,6 @@ public class Main2Activity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webView.loadUrl("http://www.google.com");
 
+        Toast.makeText(this, "tasetaset", Toast.LENGTH_SHORT).show();
     }
 }
